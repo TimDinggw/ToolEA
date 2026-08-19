@@ -8,8 +8,8 @@ class LLMConfig:
         "model": "Qwen3-8B",
         "api_key": "local-model-key",
         "api_base": "http://localhost:8000/v1",
-        #"api_key": "sk-8ebAAD1ohQCKf7pGKDbGH5msuC48qI56U24OgXC3fGksBkjq",
-        #"api_base": "https://api.chatfire.cn/v1",
+        #"api_key": "",
+        #"api_base": "",
         "temperature": 0.1,  # 默认温度
         "max_tokens": 100,    # 默认最大token数
         "extra_body": {"chat_template_kwargs": {"enable_thinking": False}}
